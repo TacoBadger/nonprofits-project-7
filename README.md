@@ -48,11 +48,34 @@ It includes:
 
 ## Methods
 - Ask - Ask effective questions
-- Prepare -Verify data's integrity, Check data credibility and reliability, Check data types and Merge datasets
+- Prepare - Verify data's integrity, Check data credibility and reliability, Check data types and Merge datasets
 - Process - Clean, Remove and Transform data and Document cleaning processes and results
 - Analyze - Identify patterns and  Draw conclusions
 - Share - Create effective visuals
 - Act - Answer your questions and solve problems
+
+# ASK
+
+We took a look at the raw data set mentioned and come up with the questions I want to answer. This can be your own questions based on your interest about the data.
+
+Questions:
+- How many titles are there in the dataset?
+- What is the top 10 titles in the whole dataset?
+- What is the top 10 least titles in the whole dataset?
+- How many of them are Netflix Exclusive and not?
+- What is the most watched type?
+- What is the top 10 TV Shows?
+- What is the top 10 Movies?
+- What is the top 6 Stand-Up Comedy?
+
+# PREPARE
+
+We downloaded the data in a zip file and uploaded it in directly to RStudio Cloud or you can use this code to import the dataset. Make sure to install and load the readr package in RStudio. You can always take a look in our [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) 
+
+```
+netflix_data <- read_csv("netflix daily top 10.csv")
+View(netflix_data)
+```
 
 ## Language or Platform Used
 - [RStudio Cloud](https://rstudio.cloud/)
