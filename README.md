@@ -14,6 +14,8 @@ Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 
   - [What I want to find out?](#what-i-want-to-find-out)
   - [Data source](#data-source)
   - [Methods](#methods)
+  - [Language or Platform Used](#language-or-platform-used)
+  - [Visual Results](#visual-results)
   - 
 
 ## What I what to find out?
@@ -38,4 +40,10 @@ The time frame of the data is from 2020-04-01 to 2022-03-11. The dataset is a pu
 - Analyze - Identify patterns and  Draw conclusions
 - Share - Create effective visuals
 - Act - Answer your questions and solve problems
+
+## Language or Platform Used
+- [RStudio Cloud](https://rstudio.cloud/)
+
+## Visual Results
+
 
