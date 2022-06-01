@@ -54,7 +54,7 @@ It includes:
 - [Share](#visual-results) - Create effective visuals
 - [Act](#key-findings) - Answer your questions and solve problems
 
-# ASK
+## ASK
 We took a look at the raw data set mentioned and come up with the questions I want to answer. This can be your own questions based on your interest about the data.
 
 Questions:
@@ -67,7 +67,7 @@ Questions:
 - What is the top 10 Movies?
 - What is the top 6 Stand-Up Comedy?
 
-# PREPARE
+## PREPARE
 We downloaded the data in a zip file and uploaded it in directly to RStudio Cloud or you can use this code to import the dataset. Make sure to install and load the readr package in RStudio. You can always take a look in our [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) whenever you need help with a line.
 
 ```
@@ -75,7 +75,7 @@ netflix_data <- read_csv("netflix daily top 10.csv")
 View(netflix_data)
 ```
 
-# PROCESS
+## PROCESS
 In this step we took our time to process and clean our data. Here a sample of our cleaning process which involves changing the column names to lower case and changing all the NA values to Others.
 
 ```
@@ -106,7 +106,7 @@ netflix_data <- mutate(netflix_data, title = recode(.x=title, "George Lopez: WeÃ
 netflix_data <- mutate(netflix_data, title = recode(.x=title, "The QueenÃ¢s Gambit"="The Queen's Gambit"))
 ```
 
-# ANALYZE
+## ANALYZE
 We took a look at out cleaned data and filtered them to the data we need to answer our questions. We also made new tables that is already sorted and filtered to answer our questions. The whole process can be found in [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) 
 
 ```
