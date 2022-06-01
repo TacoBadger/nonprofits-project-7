@@ -55,7 +55,6 @@ It includes:
 - Act - Answer your questions and solve problems
 
 # ASK
-
 We took a look at the raw data set mentioned and come up with the questions I want to answer. This can be your own questions based on your interest about the data.
 
 Questions:
@@ -69,13 +68,96 @@ Questions:
 - What is the top 6 Stand-Up Comedy?
 
 # PREPARE
-
-We downloaded the data in a zip file and uploaded it in directly to RStudio Cloud or you can use this code to import the dataset. Make sure to install and load the readr package in RStudio. You can always take a look in our [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) 
+We downloaded the data in a zip file and uploaded it in directly to RStudio Cloud or you can use this code to import the dataset. Make sure to install and load the readr package in RStudio. You can always take a look in our [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) whenever you need help with a line.
 
 ```
 netflix_data <- read_csv("netflix daily top 10.csv")
 View(netflix_data)
 ```
+
+# PROCESS
+In this step we took our time to process and clean our data. Here a sample of our cleaning process which involves changing the column names to lower case and changing all the NA values to Others.
+
+```
+netflix_data <- netflix_data %>% rename_with(tolower) %>% 
+  rename(date = "as of", 
+         year_to_date_rank = "year to date rank",
+         last_week_rank = "last week rank",
+         production = "netflix exclusive",
+         netflix_release_date = "netflix release date",
+         days_in_top_10 = "days in top 10",
+         viewership_score = "viewership score")
+
+
+View(netflix_data)
+
+#replace NA values in production column to "others"
+netflix_data <- netflix_data %<>% mutate(production = fct_explicit_na(production, na_level = "Others")) 
+View(netflix_data)
+```
+
+We also took time to clean out all the spelling mistakes and duplicates. You can take a look at the whole process on correcting all the spelling mistakes in [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) 
+
+```
+netflix_data <- mutate(netflix_data, title = recode(.x=title, "Tiger King"="Tiger King: Murder, Mayhem, and Madness"))
+netflix_data <- mutate(netflix_data, title = recode(.x=title, "Tiger King: Murder, Mayhem …"="Tiger King: Murder, Mayhem, and Madness"))
+netflix_data <- mutate(netflix_data, title = recode(.x=title, "Jerry Seinfeld: 23 Hours to…"="Jerry Seinfeld: 23 Hours to Kill"))
+netflix_data <- mutate(netflix_data, title = recode(.x=title, "George Lopez: Weâll Do It f…"="George Lopez: We'll Do It for Half"))
+netflix_data <- mutate(netflix_data, title = recode(.x=title, "The Queenâs Gambit"="The Queen's Gambit"))
+```
+
+# ANALYZE
+We took a look at out cleaned data and filtered them to the data we need to answer our questions. We also made new tables that is already sorted and filtered to answer our questions. The whole process can be found in [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) 
+
+```
+#Number of titles
+unique(netflix_data$title)
+
+#Top 10 titles
+title_count_top <- netflix_data %>% count(title) %>% rename(days_in_top_10 = n) %>%
+  arrange(-days_in_top_10) %>% head(10)
+View(title_count_top)
+```
+Top 10 Titles will show
+| Title     	                | Days in top 10  	|
+|-------------------	        |------------------	|
+| Cocomelon                  	| 415               |
+| Manifest             	      | 80	              |
+| The Queen's Gambit          | 73 	              |
+| Outer Banks                 | 72	              |
+| Squid Game                  | 66	              |
+| All American                | 58 	              |
+| Bridgerton                  | 58	              |
+| Cobra Kai                   | 57	              |
+| Lucifer                     | 56	              |
+| Virgin River                | 56	              |
+
+```
+title_count_least <- netflix_data %>% count(title) %>% rename(days_in_top_10 = n) %>%
+  arrange(days_in_top_10) %>% head(10)
+View(title_count_least))
+```
+Top 10 Least titles will show
+| Title     	                | Days in top 10  	|
+|-------------------	        |------------------	|
+| Animals on the loose: A you vs. Wild movie                 	| 1                 |
+| Are we there yet?      	    | 1	                |
+| Badland                     | 1 	              |
+| Christmas on the square     | 1	                |
+| Dare me                     | 1                 |
+| Dare me: Seaon 1            | 1	                |
+| Dark                        | 1	                |
+| Elves                       | 1	                |
+| Grumpy Christmas            | 1                 |
+| Hannibal                    | 1	                |
+
+```
+type_count <- netflix_unique %>% count(type) %>% rename(count = n)
+View(type_count)
+```
+Type Count will show
+
+
 
 ## Language or Platform Used
 - [RStudio Cloud](https://rstudio.cloud/)
@@ -103,7 +185,7 @@ View(netflix_data)
 4. Movie is the most watched type.
 5. The top 10 Tv shows were Cocomelon, Manifest, Queen's Gambit, Outer banks, Squid game, All American, Bridgerton, Cobra Kai, Lucifer and Virgin River
 6. Top 10 Movies were The Mitchell vs. The machines, How the grinch stole christmas, Vivo, 365 days, Illumination presents the grinch. The Christmas Chronicles 2, We can be heroes, Red notice, The Unforgivable and Home
-7. Top 6 Stand-Up Comedy were Dave Chappelle: The Closer, Kevin Hartz: Zero fucks given, George Lopez: We'll do it for half, Chris D'elia: No Pain, Bo Burnham: Inside
+7. Top 6 Stand-Up Comedy were Dave Chappelle: The Closer, Kevin Hartz: Zero fucks given, George Lopez: We'll do it for half, Jerry Seinfeld: 23 hours to kill, Chris D'elia: No Pain, Bo Burnham: Inside
 
 ## Explore the Notebook
 You can copy and edit the notebook to explore your own analysis of the data.
