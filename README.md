@@ -47,12 +47,12 @@ It includes:
 - Viewership Score: This statistic was reworked in late 2021 and was not used in the analysis.
 
 ## Methods
-- Ask - Ask effective questions
-- Prepare - Verify data's integrity, Check data credibility and reliability, Check data types and Merge datasets
-- Process - Clean, Remove and Transform data and Document cleaning processes and results
-- Analyze - Identify patterns and  Draw conclusions
-- Share - Create effective visuals
-- Act - Answer your questions and solve problems
+- [Ask](#ask) - Ask effective questions
+- [Prepare](#prepare) - Verify data's integrity, Check data credibility and reliability, Check data types and Merge datasets
+- [Process](#process) - Clean, Remove and Transform data and Document cleaning processes and results
+- [Analyze](#analyze) - Identify patterns and  Draw conclusions
+- [Share](#visual-results) - Create effective visuals
+- [Act](#key-findings) - Answer your questions and solve problems
 
 # ASK
 We took a look at the raw data set mentioned and come up with the questions I want to answer. This can be your own questions based on your interest about the data.
@@ -156,7 +156,92 @@ type_count <- netflix_unique %>% count(type) %>% rename(count = n)
 View(type_count)
 ```
 Type Count will show
+| Type      	                | Count            	|
+|-------------------	        |------------------	|
+| Concert/Performance        	| 2                 |
+| Movie                  	    | 2401	            |
+| Stand-Up Comedy             | 41 	              |
+| TV Show                     | 3995              |
 
+
+```
+production_count <- netflix_unique %>% count(production) %>% rename(count = n)
+View(production_count)
+```
+Production Count will show
+| Production   	              | Count            	|
+|-------------------	        |------------------	|
+| Netflix Exclusive         	| 4104              |
+| Not Netflix Exclusive       | 2335	            |
+
+```
+tv_show <- filter(netflix_data,type=="tv show") %>% count(title) %>% rename(days_in_top_10 = n) %>%
+  arrange(-days_in_top_10) %>% head(10)
+View(tv_show)
+```
+Top 10 TV Shows will show
+| Title     	                | Days in top 10  	|
+|-------------------	        |------------------	|
+| Cocomelon                  	| 415               |
+| Manifest             	      | 80	              |
+| The Queen's Gambit          | 73 	              |
+| Outer Banks                 | 72	              |
+| Squid Game                  | 66	              |
+| All American                | 58 	              |
+| Bridgerton                  | 58	              |
+| Cobra Kai                   | 57	              |
+| Lucifer                     | 56	              |
+| Virgin River                | 56	              |
+
+```
+movies <- filter(netflix_data,type=="movie") %>% count(title) %>% rename(days_in_top_10 = n) %>%
+  arrange(-days_in_top_10) %>% head(10)
+View(movies)
+```
+Top 10 Movies will show
+| Title      	                | Days in top 10    |
+|-------------------	        |------------------	|
+| The Mitchells vs. The Machines   	| 31                 |
+| How the Grinch Stole Christmas    | 29	               |
+| Vivo                        | 29  	              |
+| 365 days                    | 28	                |
+| Illumination presents the Grinch  | 24            |
+| The Christmas Chronicles 2  | 24	                |
+| We can be heroes            | 24	                |
+| Red Notice                  | 23	                |
+| The Unforgivable            | 22                  |
+| Home                        | 21 	                |
+
+```
+comedy <- filter(netflix_data,type=="stand-up comedy") %>% count(title) %>% rename(days_in_top_10 = n) %>%
+  arrange(-days_in_top_10) %>% head(10)
+View(comedy)
+```
+Top 6 Stand-Up Comedy will show
+| Title      	                | Days in top 10    |
+|-------------------	        |------------------	|
+| Dave Chappelle: The Closer        	| 31                  |
+| Kevin Hartz: Zero fucks given       | 29	                |
+| George Lopez: We'll do it for half  | 29  	              |
+| Jerry Seinfeld: 23 hours to kill    | 28	                |
+|  Chris D'elia: No Pain              | 24                  |
+| Bo Burnham: Inside                  | 24	                |
+
+```
+concert_and_performance <- filter(netflix_data,type=="concert/performance") %>% count(title) %>% rename(days_in_top_10 = n) %>%
+  arrange(-days_in_top_10) %>% head(10)
+View(concert_and_performance)
+```
+Concert and Performance will show
+| Title       	              | Days in top 10   	|
+|-------------------	        |------------------	|
+| Ariana GrandeÆ Excuse me, i love you	| 2       |
+
+## SHARE AND ACT  
+Our share and act process are documented below
+
+  - [Visual Results](#visual-results)
+  - [Key Findings](#key-findings)
 
 
 ## Language or Platform Used
