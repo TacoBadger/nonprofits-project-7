@@ -11,14 +11,14 @@ Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 
 
 ## Table of Contents
 
-  - [What I want to find out?](#what-i-want-to-find-out)
-  - [Data source](#data-source)
+  - [What I want to find out?](#what-i-want-to-find-out-?)
+  - [Data Source](#dataset)
   - [Methods](#methods)
   - [Language or Platform Used](#language-or-platform-used)
   - [Visual Results](#visual-results)
   - 
 
-## What I what to find out?
+## What I want to find out?
 - Number of titles
 - Top ten titles
 - Top ten least titles
@@ -45,5 +45,27 @@ The time frame of the data is from 2020-04-01 to 2022-03-11. The dataset is a pu
 - [RStudio Cloud](https://rstudio.cloud/)
 
 ## Visual Results
+
+Top 10 Titles
+![Top 10 Titles](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Top%2010%20Titles.png?raw=true)
+
+Top 10 Least Titles
+![Top 10 Least Titles](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Top%2010%20Least%20Titles.png?raw=true)
+
+Total number of Types in Netflix
+![Total number of Types in Netflix](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Type%20Count.png?raw=true)
+
+Total number of Production
+![Total number of Production](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Production%20Count.png?raw=true)
+
+Top 10 TV Show
+![Top 10 TV Shows](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Top%2010%20TV%20Shows.png?raw=true)
+
+Top 10 Movies
+![Top 10 Movies](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Top%2010%20Movies.png?raw=true)
+
+Top 6 Stand-Up Comedies
+![Top 6 Stand-Up Comedies](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Top%206%20Stand-up%20Comedy.png?raw=true)
+
 
 
