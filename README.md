@@ -4,7 +4,7 @@
 
 # Analysis of the Netflix Top 10 Dataset in Kaggle.
 
-Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 to 2022-03-11. The dataset is a public dataset made available through Prasert Kanawattanachai on Kaggle.
+Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 to 2022-03-11. The dataset is a public dataset made available through Prasert Kanawattanachai on Kaggle. Please do take note that this document is for practice purposes only and it does not include any marketing of the titles involved.
 
 ## Authors
 - [@TacoBadger](https://github.com/TacoBadger)
@@ -34,6 +34,17 @@ The time frame of the data is from 2020-04-01 to 2022-03-11. The dataset is a pu
 
 ## Dataset
 - [Kaggle Netflix Top 10](https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us)
+
+It includes:
+-  As Of: the snapshot date for each datapoint.
+- Rank: A 1-10 scale representing the streaming time of each show for a given date.
+- Year to Date Rank: A 1-10 scale representing the overall rank relative to all other shows that year (these rankings shift around quite a lot as this is recalculated by the day).
+- Last Week Rank: A 1-10 scale showing the overall rank for the prior week.
+- Title: The name of the show or special in question.
+- Netflix Exclusive: Whether the show is a Netflix exclusive.
+- Netflix Release Date: The date which the show debuted on Netflix
+- Days in Top 10: How many total days a show has appeared in the Top 10 by the As Of date.
+- Viewership Score: This statistic was reworked in late 2021 and was not used in the analysis.
 
 ## Methods
 - Ask - Ask effective questions
