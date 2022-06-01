@@ -79,4 +79,5 @@ Top 6 Stand-Up Comedies
 7. Top 6 Stand-Up Comedy were Dave Chappelle: The Closer, Kevin Hartz: Zero fucks given, George Lopez: We'll do it for half, Chris D'elia: No Pain, Bo Burnham: Inside
 
 ## Explore the Notebook
+You can copy and edit the notebook to explore your own analysis of the data.
 - [Notebook](https://www.kaggle.com/code/cryptocosy/netflix-dataset)
