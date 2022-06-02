@@ -235,7 +235,7 @@ View(concert_and_performance)
 Concert and Performance will show
 | Title       	              | Days in top 10   	|
 |-------------------	        |------------------	|
-| Ariana GrandeÆ Excuse me, i love you	| 2       |
+| Ariana Grande's Excuse me, i love you	| 2       |
 
 ## SHARE AND ACT  
 Our share and act process are documented below
