@@ -18,7 +18,7 @@ Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 
   - [Visual Results](#visual-results)
   - [Key Findings](#key-findings)
   - [Explore my Kaggle Notebook](#explore-the-notebook)
-  - [What is Next?](#what-is-next-?)
+  - [What is next?](#what-is-next-?)
  
 
 ## What I want to find out?
@@ -277,7 +277,7 @@ Our share and act process are documented below
 You can copy and edit the notebook to explore your own analysis of the data.
 - [Notebook](https://www.kaggle.com/code/cryptocosy/netflix-dataset)
 
-## What is Next?
+## What is next?
 Thank you for reading my doccumentation about my Netflix Dataset. To help me improve more of my basic data analytical skills I will list down a few pointers on what's next for my other projects.
 
 - I could have improved my data story telling or I could have made a more compelling narrative by including all detailed and relevant explanation in my documentation, I should know what my target audience is and start telling my data from there. I should also be including basic terms especially for beginners reading my documentation.
