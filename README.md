@@ -18,6 +18,7 @@ Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 
   - [Visual Results](#visual-results)
   - [Key Findings](#key-findings)
   - [Explore my Kaggle Notebook](#explore-the-notebook)
+  - [What's Next?](#whats-next-?)
  
 
 ## What I want to find out?
@@ -275,3 +276,5 @@ Our share and act process are documented below
 ## Explore the Notebook
 You can copy and edit the notebook to explore your own analysis of the data.
 - [Notebook](https://www.kaggle.com/code/cryptocosy/netflix-dataset)
+
+## What's Next?
