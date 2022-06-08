@@ -18,7 +18,7 @@ Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 
   - [Visual Results](#visual-results)
   - [Key Findings](#key-findings)
   - [Explore my Kaggle Notebook](#explore-the-notebook)
-  - [What's Next?](#what's-next-?)
+  - [What is Next?](#what-is-next-?)
  
 
 ## What I want to find out?
@@ -277,4 +277,13 @@ Our share and act process are documented below
 You can copy and edit the notebook to explore your own analysis of the data.
 - [Notebook](https://www.kaggle.com/code/cryptocosy/netflix-dataset)
 
-## What's Next?
+## What is Next?
+Thank you for reading my doccumentation about my Netflix Dataset. To help me improve more of my basic data analytical skills I will list down a few pointers on what's next for my other projects.
+
+- I could have improved my data story telling or I could have made a more compelling narrative by including all detailed and relevant explanation in my documentation, I should know what my target audience is and start telling my data from there. I should also be including basic terms especially for beginners reading my documentation.
+- I could have improved my keypointers that can lead the audience to understand more about my data analysis. I could have make use of highlighting all important keywords and relevant data for our target audience.
+- A more detailed explanation of the codes used and functions. We can use a small summary for our target audience.
+- A more effective way of using visuals where our target audience can easily understand it. Always make sure you choose the proper visual to express your dataset. 
+-  We will also start using SQL for our next dataset practice which involves more functions and commands that is more complex than in RStudio. We will specifically used DB Browser SQLite for our next ptractice, DB Browser works similar to SQL in some functions and commands so let us learn about it together in the next dataset. 
+
+See you on our next project!
