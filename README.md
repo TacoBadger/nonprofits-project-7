@@ -11,14 +11,14 @@ Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 
 
 ## Table of Contents
 
-  - [What I want to find out?](#what-i-want-to-find-out-?)
+  - [What I want to find out?](#what-i-want-to-find-out)
   - [Data Source](#dataset)
   - [Methods](#methods)
   - [Language or Platform Used](#language-or-platform-used)
   - [Visual Results](#visual-results)
   - [Key Findings](#key-findings)
   - [Explore my Kaggle Notebook](#explore-the-notebook)
-  - [What is next?](#what-is-next-?)
+  - [What is next?](#what-is-next)
  
 
 ## What I want to find out?
