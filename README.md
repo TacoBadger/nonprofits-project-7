@@ -18,7 +18,7 @@ Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 
   - [Visual Results](#visual-results)
   - [Key Findings](#key-findings)
   - [Explore my Kaggle Notebook](#explore-the-notebook)
-  - [What's Next?](#whats-next-?)
+  - [What's Next?](#what's-next-?)
  
 
 ## What I want to find out?
