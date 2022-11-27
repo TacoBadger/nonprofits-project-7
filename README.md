@@ -1,4 +1,4 @@
-# Netflix Dataset
+# Netflix Dataset (Project #1)
 
 ![](https://github.com/TacoBadger/NetflixDataset/blob/main/dataset.png?raw=true)
 
