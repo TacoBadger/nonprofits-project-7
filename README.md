@@ -2,9 +2,21 @@
 
 ![](https://github.com/TacoBadger/NetflixDataset/blob/main/dataset.png?raw=true)
 
-# INTRODUCTION
+# Introduction
 
-Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 to 2022-03-11. The dataset is a public dataset made available through Prasert Kanawattanachai on Kaggle. Please do take note that this document is for practice purposes only and it does not include any marketing of the titles involved.
+Lately I have been very interested in how Power Bi pecifically can help nonprofits. With Power Bi, you can gain insights into your operations and performance, and make data-driven decisions that can help you achieve your mission and goals. I can think about 4 main ways nonprofits can you use Power Bi analysis:
+
+Donor analysis: Power BI can be used to analyze donor data, such as donation amounts, frequency, and sources, to better understand donor behavior and identify trends. This can help charities target their fundraising efforts more effectively and improve donor retention.
+
+Program effectiveness: Charities can use Power BI to track and monitor the effectiveness of their programs and initiatives, such as the number of people served, the impact of the program, and the resources required. This can help charities allocate resources more efficiently and optimize program design.
+
+Financial analysis: Power BI can be used to analyze financial data, such as revenue, expenses, and fundraising performance, to identify trends and areas for improvement. This can help charities manage their finances more effectively and make informed decisions about budgeting and resource allocation.
+
+Impact reporting: Charities can use Power BI to create interactive dashboards and reports that showcase the impact of their work and communicate it to stakeholders. This can help charities demonstrate the value of their work to donors, volunteers, and the public.
+
+In this case study, I will limit the scope to a donor analysis. I made fictive non-profit called The be happy foundation, and I also made a dataset of fictive donors.
+
+Please do take note that this document is for practice purposes only and it does not include any marketing of the titles involved.
 
 ## Authors
 - [@TacoBadger](https://github.com/TacoBadger)
