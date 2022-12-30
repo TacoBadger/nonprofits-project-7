@@ -1,4 +1,4 @@
-# Netflix Dataset (Project 1)
+# Nonprofit Dataset (Project 7)
 
 ![](https://github.com/TacoBadger/NetflixDataset/blob/main/dataset.png?raw=true)
 
