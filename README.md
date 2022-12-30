@@ -2,7 +2,7 @@
 
 ![](https://github.com/TacoBadger/NetflixDataset/blob/main/dataset.png?raw=true)
 
-# Analysis of the Netflix Top 10 Dataset in Kaggle.
+# INTRODUCTION
 
 Worked with the dataset to find the Top titles on Netflix in US from 2020-04-01 to 2022-03-11. The dataset is a public dataset made available through Prasert Kanawattanachai on Kaggle. Please do take note that this document is for practice purposes only and it does not include any marketing of the titles involved.
 
