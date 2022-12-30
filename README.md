@@ -1,6 +1,6 @@
 # Nonprofit Dataset (Project 7)
 
-![](https://github.com/TacoBadger/NetflixDataset/blob/main/dataset.png?raw=true)
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/nonprofits.png?raw=true)
 
 # Introduction
 
