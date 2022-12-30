@@ -23,8 +23,7 @@ Please do take note that this document is for practice purposes only and it does
 
 ## Table of Contents
 
-  - [What I want to find out?](#what-i-want-to-find-out)
-  - [Data Source](#dataset)
+  - [Dataset](#dataset)
   - [Methods](#methods)
   - [Language or Platform Used](#language-or-platform-used)
   - [Visual Results](#visual-results)
@@ -32,18 +31,6 @@ Please do take note that this document is for practice purposes only and it does
   - [Explore my Kaggle Notebook](#explore-the-notebook)
   - [What is next?](#what-is-next)
  
-
-## What I want to find out?
-- Number of titles
-- Top ten titles
-- Top ten least titles
-- How many of them were Netflix Exclusive and Not
-- Most watched type
-- Top ten TV Shows
-- Top ten Movies
-- Top six Stand-Up Comedy
-
-The time frame of the data is from 2020-04-01 to 2022-03-11. The dataset is a public dataset made available through Prasert Kanawattanachai on Kaggle.
 
 ## Dataset
 - [Kaggle Netflix Top 10](https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us)
