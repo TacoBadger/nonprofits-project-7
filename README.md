@@ -4,7 +4,7 @@
 
 # Introduction
 
-Lately I have been very interested in how Power Bi pecifically can help nonprofits. With Power Bi, you can gain insights into your operations and performance, and make data-driven decisions that can help you achieve your mission and goals. I can think about 4 main ways nonprofits can you use Power Bi analysis:
+Lately I have been very interested in how Power Bi pecifically can help nonprofits. With Power Bi, you can gain insights into your operations and performance, and make data-driven decisions that can help you achieve your mission and goals. I can think of 4 main ways nonprofits can use Power Bi analysises:
 
 Donor analysis: Power BI can be used to analyze donor data, such as donation amounts, frequency, and sources, to better understand donor behavior and identify trends. This can help charities target their fundraising efforts more effectively and improve donor retention.
 
@@ -14,7 +14,7 @@ Financial analysis: Power BI can be used to analyze financial data, such as reve
 
 Impact reporting: Charities can use Power BI to create interactive dashboards and reports that showcase the impact of their work and communicate it to stakeholders. This can help charities demonstrate the value of their work to donors, volunteers, and the public.
 
-In this case study, I will limit the scope to a donor analysis. I made fictive non-profit called The be happy foundation, and I also made a dataset of fictive donors.
+In this case study, I will limit the scope to a donor analysis. I made fictive non-profit called The Be Happy Foundation, and I also made a dataset of fictive donors.
 
 Please do take note that this document is for practice purposes only and it does not include any marketing of the titles involved.
 
