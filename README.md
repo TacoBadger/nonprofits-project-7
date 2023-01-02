@@ -35,16 +35,16 @@ Please do take note that this document is for practice purposes only and it does
 ## Dataset
 - [The Fake Be Happy Foundation Donor Data](https://github.com/TacoBadger/nonprofits-project-7/blob/main/Excel%20Nonprofits.xlsx)
 
+This dataset consist of 100 rows of fake data, I used www.random.org to generate both names and numbers.
+
 It includes:
--  As Of: the snapshot date for each datapoint.
-- Rank: A 1-10 scale representing the streaming time of each show for a given date.
-- Year to Date Rank: A 1-10 scale representing the overall rank relative to all other shows that year (these rankings shift around quite a lot as this is recalculated by the day).
-- Last Week Rank: A 1-10 scale showing the overall rank for the prior week.
-- Title: The name of the show or special in question.
-- Netflix Exclusive: Whether the show is a Netflix exclusive.
-- Netflix Release Date: The date which the show debuted on Netflix
-- Days in Top 10: How many total days a show has appeared in the Top 10 by the As Of date.
-- Viewership Score: This statistic was reworked in late 2021 and was not used in the analysis.
+- Id. This is unique identifier of each donor, from D000100 to D00199
+- Donor. This is the name of the donor which comprise of both first and surname
+- Anonymity. This field can be populated with Yes and No. For our example, no on of the 100 donors wanted to be anonymous.
+- Regular Donation. This column is populated with regular or one-off donation. This is an important metric and KPI, as the regular donations will increase the long term sustainability of the nonprofit.
+- Amount. This data is great to establish who the biggest donors are.
+- Date of donations. This data goes from 2018 to 2022
+- Status reason. This data show whether the donor is active or passive contributor.
 
 ## Methods
 - [Ask](#ask) - Ask effective questions
