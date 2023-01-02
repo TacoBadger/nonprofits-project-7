@@ -73,142 +73,38 @@ Firstly, I made a mini dataset of 100 rows inside excel:
 
 Here you can see all the columns, the rows and the fields.
 
+Later on, I used the data in the Excel to work on my power BI Dashboard.
+
+You can download the dashboard https://github.com/TacoBadger/nonprofits-project-7/blob/main/nonprofitpowerbi.pbix or you can see how it looks like here
+
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power1.png?raw=true)
+
 
 ## PROCESS
-In this step I took the time to process and clean the data. Purposedly, I left all the null values out. I also left out the Anonymous Data because none of them are anonomous. I also took some time to clean out all the spelling mistakes and duplicates. I did all this manually, because the dataset is relatively small, however this can also be done programmatically in everything from Excel to Python.
+In this step I took the time to process and clean the data in the Excel file. Purposedly, I left all the null values out. I also left out the Anonymous Data because none of them are anonomous. I also took some time to clean out all the spelling mistakes and duplicates. I did all this manually, because the dataset is relatively small, however this can also be done programmatically in everything from Excel to Python.
 
 
 
 ## ANALYZE
-We took a look at out cleaned data and filtered them to the data we need to answer our questions. We also made new tables that is already sorted and filtered to answer our questions. The whole process can be found in [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) 
 
-```
-#Number of titles
-unique(netflix_data$title)
+The first things I did in Excel was generating a table:
 
-#Top 10 titles
-title_count_top <- netflix_data %>% count(title) %>% rename(days_in_top_10 = n) %>%
-  arrange(-days_in_top_10) %>% head(10)
-View(title_count_top)
-```
-Top 10 Titles will show
-| Title     	                | Days in top 10  	|
-|-------------------	        |------------------	|
-| Cocomelon                  	| 415               |
-| Manifest             	      | 80	              |
-| The Queen's Gambit          | 73 	              |
-| Outer Banks                 | 72	              |
-| Squid Game                  | 66	              |
-| All American                | 58 	              |
-| Bridgerton                  | 58	              |
-| Cobra Kai                   | 57	              |
-| Lucifer                     | 56	              |
-| Virgin River                | 56	              |
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/excel2.png?raw=true)
 
-```
-title_count_least <- netflix_data %>% count(title) %>% rename(days_in_top_10 = n) %>%
-  arrange(days_in_top_10) %>% head(10)
-View(title_count_least))
-```
-Top 10 Least titles will show
-| Title     	                | Days in top 10  	|
-|-------------------	        |------------------	|
-| Animals on the loose: A you vs. Wild movie                 	| 1                 |
-| Are we there yet?      	    | 1	                |
-| Badland                     | 1 	              |
-| Christmas on the square     | 1	                |
-| Dare me                     | 1                 |
-| Dare me: Seaon 1            | 1	                |
-| Dark                        | 1	                |
-| Elves                       | 1	                |
-| Grumpy Christmas            | 1                 |
-| Hannibal                    | 1	                |
+From there, I could generate a pivot table
 
-```
-type_count <- netflix_unique %>% count(type) %>% rename(count = n)
-View(type_count)
-```
-Type Count will show
-| Type      	                | Count            	|
-|-------------------	        |------------------	|
-| Concert/Performance        	| 2                 |
-| Movie                  	    | 2401	            |
-| Stand-Up Comedy             | 41 	              |
-| TV Show                     | 3995              |
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/excel3.png?raw=true)
+
+In this pivot table, you can see the date of the donations and also the donor.
+
+Now I generated a graph to get a better overview.
+
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/excel4.png?raw=true)
+
+All the Excel based table and graphs did not give a satisfying result to our enquiries.
 
 
-```
-production_count <- netflix_unique %>% count(production) %>% rename(count = n)
-View(production_count)
-```
-Production Count will show
-| Production   	              | Count            	|
-|-------------------	        |------------------	|
-| Netflix Exclusive         	| 4104              |
-| Not Netflix Exclusive       | 2335	            |
 
-```
-tv_show <- filter(netflix_data,type=="tv show") %>% count(title) %>% rename(days_in_top_10 = n) %>%
-  arrange(-days_in_top_10) %>% head(10)
-View(tv_show)
-```
-Top 10 TV Shows will show
-| Title     	                | Days in top 10  	|
-|-------------------	        |------------------	|
-| Cocomelon                  	| 415               |
-| Manifest             	      | 80	              |
-| The Queen's Gambit          | 73 	              |
-| Outer Banks                 | 72	              |
-| Squid Game                  | 66	              |
-| All American                | 58 	              |
-| Bridgerton                  | 58	              |
-| Cobra Kai                   | 57	              |
-| Lucifer                     | 56	              |
-| Virgin River                | 56	              |
-
-```
-movies <- filter(netflix_data,type=="movie") %>% count(title) %>% rename(days_in_top_10 = n) %>%
-  arrange(-days_in_top_10) %>% head(10)
-View(movies)
-```
-Top 10 Movies will show
-| Title      	                | Days in top 10    |
-|-------------------	        |------------------	|
-| The Mitchells vs. The Machines   	| 31                 |
-| How the Grinch Stole Christmas    | 29	               |
-| Vivo                        | 29  	              |
-| 365 days                    | 28	                |
-| Illumination presents the Grinch  | 24            |
-| The Christmas Chronicles 2  | 24	                |
-| We can be heroes            | 24	                |
-| Red Notice                  | 23	                |
-| The Unforgivable            | 22                  |
-| Home                        | 21 	                |
-
-```
-comedy <- filter(netflix_data,type=="stand-up comedy") %>% count(title) %>% rename(days_in_top_10 = n) %>%
-  arrange(-days_in_top_10) %>% head(10)
-View(comedy)
-```
-Top 6 Stand-Up Comedy will show
-| Title      	                | Days in top 10    |
-|-------------------	        |------------------	|
-| Dave Chappelle: The Closer        	| 31                  |
-| Kevin Hartz: Zero fucks given       | 29	                |
-| George Lopez: We'll do it for half  | 29  	              |
-| Jerry Seinfeld: 23 hours to kill    | 28	                |
-|  Chris D'elia: No Pain              | 24                  |
-| Bo Burnham: Inside                  | 24	                |
-
-```
-concert_and_performance <- filter(netflix_data,type=="concert/performance") %>% count(title) %>% rename(days_in_top_10 = n) %>%
-  arrange(-days_in_top_10) %>% head(10)
-View(concert_and_performance)
-```
-Concert and Performance will show
-| Title       	              | Days in top 10   	|
-|-------------------	        |------------------	|
-| Ariana Grande's Excuse me, i love you	| 2       |
 
 ## SHARE AND ACT  
 Our share and act process are documented below
