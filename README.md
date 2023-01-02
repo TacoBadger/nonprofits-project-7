@@ -1,10 +1,10 @@
 # Nonprofit Dataset (Project 7)
 
-![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/nonprofits.png?raw=true)
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/NonProfits.png?raw=true)
 
 # Introduction
 
-Lately I have been very interested in how Power Bi pecifically can help nonprofits. With Power Bi, you can gain insights into your operations and performance, and make data-driven decisions that can help you achieve your mission and goals. I can think of 4 main ways nonprofits can use Power Bi analysises:
+Lately I have been very interested in how Power Bi can help nonprofits. With Power Bi, you can gain insights into your operations and performance, and make data-driven decisions that can help you achieve your mission and goals. I can think of 4 main ways nonprofits can use Power Bi analysises:
 
 Donor analysis: Power BI can be used to analyze donor data, such as donation amounts, frequency, and sources, to better understand donor behavior and identify trends. This can help charities target their fundraising efforts more effectively and improve donor retention.
 
