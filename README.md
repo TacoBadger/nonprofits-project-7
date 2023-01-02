@@ -58,10 +58,10 @@ I used the Google Data Analytics framework. It consist of the follow 6 steps:
 ## ASK
 Since I made my own mini dataset - the questions could potentially be a bit skewed towards my own interest. 
 
-With that in mind I have 3 question.
+With that in mind I have 3 questions.
 
 1. I am curios whether the donation have been increaseing since 2018 and possible why?
-2. I am intriqued by who the top 10 domors are and whether we can see any patterns between them?
+2. I am intriqued by who the top 9 donors are and whether we can see any patterns between them?
 3. I am wondering whether we fget more one-off donations or regular donations and what we can do to increase the regular donations?
 
 
@@ -105,32 +105,34 @@ All the Excel based table and graphs did not give a satisfying result to our enq
 
 
 
-
 ## SHARE AND ACT  
-Our share and act process are documented below
 
-  - [Visual Results](#visual-results)
-  - [Key Findings](#key-findings)
+So now we will use Power Bi and see if the insights to our enquires becomes clearer. Remember the questions we asked was:
+
+1. I am curios whether the donation have been increaseing since 2018 and possible why?
+2. I am intriqued by who the top 9 donors are and whether we can see any patterns between them?
+3. I am wondering whether we get more one-off donations or regular donations and what we can do to increase the regular donations?
+
+This Power Bi table is clearly shpowing that from 2018 the amount of donation have only gone down  :
+
+Power2 
+
+The donations has decreased from more than 10k to less than 2K. Why? We don't know yet. We need more data we can analyze to infer some reasons.
 
 
-## Language or Platform Used
-- [RStudio Cloud](https://rstudio.cloud/)
+In the following Power Bi table, we can see who the biggest donors has been. 
 
-## Visual Results
+Power 3a, 3b, 3c
 
-![Top 10 Titles](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Top%2010%20Titles.png?raw=true)
+In Power BI we can click on each donor and see that out of the 10, there are 2 donors, Arun Edwards and Alan Newman that are regular donations. the rest of one-off donators. 
 
-![Top 10 Least Titles](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Top%2010%20Least%20Titles.png?raw=true)
+In the final illustration, we can see that we received more one-off donation.
 
-![Total number of Types in Netflix](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Type%20Count.png?raw=true)
+power 4
 
-![Total number of Production](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Production%20Count.png?raw=true)
+Although, it we be intereseting to know why, we still don't have enough data to give an explaination.
 
-![Top 10 TV Shows](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Top%2010%20TV%20Shows.png?raw=true)
 
-![Top 10 Movies](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Top%2010%20Movies.png?raw=true)
-
-![Top 6 Stand-Up Comedies](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/Top%206%20Stand-up%20Comedy.png?raw=true)
 
 ## Key Findings
 1. There are 595 titles.
@@ -140,10 +142,6 @@ Our share and act process are documented below
 5. The top 10 Tv shows were Cocomelon, Manifest, Queen's Gambit, Outer banks, Squid game, All American, Bridgerton, Cobra Kai, Lucifer and Virgin River
 6. Top 10 Movies were The Mitchell vs. The machines, How the grinch stole christmas, Vivo, 365 days, Illumination presents the grinch. The Christmas Chronicles 2, We can be heroes, Red notice, The Unforgivable and Home
 7. Top 6 Stand-Up Comedy were Dave Chappelle: The Closer, Kevin Hartz: Zero fucks given, George Lopez: We'll do it for half, Jerry Seinfeld: 23 hours to kill, Chris D'elia: No Pain, Bo Burnham: Inside
-
-## Explore the Notebook
-You can copy and edit the notebook to explore your own analysis of the data.
-- [Notebook](https://www.kaggle.com/code/cryptocosy/netflix-dataset)
 
 ## What is next?
 Thank you for reading my doccumentation about my Netflix Dataset. To help me improve more of my basic data analytical skills I will list down a few pointers on what's next for my other projects.
