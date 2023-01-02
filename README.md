@@ -33,7 +33,7 @@ Please do take note that this document is for practice purposes only and it does
  
 
 ## Dataset
-- [Kaggle Netflix Top 10](https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us)
+- [The Fake Be Happy Foundation Donor Data](https://github.com/TacoBadger/nonprofits-project-7/blob/main/Excel%20Nonprofits.xlsx)
 
 It includes:
 -  As Of: the snapshot date for each datapoint.
