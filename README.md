@@ -132,7 +132,7 @@ In Power BI we can click on each donor and see that out of the 10, there are 2 d
 
 In the final illustration, we can see that we received more one-off donation.
 
-![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power%4.png?raw=true)
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power4.png?raw=true)
 
 Although, it we be intereseting to know why, we still don't have enough data to give an explaination.
 
