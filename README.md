@@ -115,26 +115,32 @@ So now we will use Power Bi and see if the insights to our enquires becomes clea
 
 This Power Bi table is clearly shpowing that from 2018 the amount of donation have only gone down  :
 
-Power2 
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power2.png?raw=true)
 
 The donations has decreased from more than 10k to less than 2K. Why? We don't know yet. We need more data we can analyze to infer some reasons.
 
 
 In the following Power Bi table, we can see who the biggest donors has been. 
 
-Power 3a, 3b, 3c
+
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power3a.png?raw=true)
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power3b.png?raw=true)
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power3c.png?raw=true)
+
 
 In Power BI we can click on each donor and see that out of the 10, there are 2 donors, Arun Edwards and Alan Newman that are regular donations. the rest of one-off donators. 
 
 In the final illustration, we can see that we received more one-off donation.
 
-power 4
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power4.png?raw=true)
 
 Although, it we be intereseting to know why, we still don't have enough data to give an explaination.
 
 
 
 ## Key Findings
+
+The Data shows that the Happy has suffered a steep decline in donations.....
 1. There are 595 titles.
 2. Cocomelon had the highest number of days during the pandemic. All other titles on the top 10 titles had way less number of days than Cocomelon.
 3. 377 of the titles are Netflix exclusive.
@@ -144,7 +150,12 @@ Although, it we be intereseting to know why, we still don't have enough data to 
 7. Top 6 Stand-Up Comedy were Dave Chappelle: The Closer, Kevin Hartz: Zero fucks given, George Lopez: We'll do it for half, Jerry Seinfeld: 23 hours to kill, Chris D'elia: No Pain, Bo Burnham: Inside
 
 ## What is next?
-Thank you for reading my doccumentation about my Netflix Dataset. To help me improve more of my basic data analytical skills I will list down a few pointers on what's next for my other projects.
+Thank you for reading my mini case study about nonprofit donor data. Segmentation, locatiopn, age, hobbies could give us more insigths into.
+
+
+
+
+doccumentation about my Netflix Dataset. To help me improve more of my basic data analytical skills I will list down a few pointers on what's next for my other projects.
 
 - I could have improved my data story telling or I could have made a more compelling narrative by including all detailed and relevant explanation in my documentation, I should know what my target audience is and start telling my data from there. I should also be including basic terms especially for beginners reading my documentation.
 - I could have improved my keypointers that can lead the audience to understand more about my data analysis. I could have make use of highlighting all important keywords and relevant data for our target audience.
