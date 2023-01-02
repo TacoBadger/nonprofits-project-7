@@ -44,9 +44,10 @@ It includes:
 - Regular Donation. This column is populated with regular or one-off donation. This is an important metric and KPI, as the regular donations will increase the long term sustainability of the nonprofit.
 - Amount. This data is great to establish who the biggest donors are.
 - Date of donations. This data goes from 2018 to 2022
-- Status reason. This data show whether the donor is active or passive contributor.
+- Status reason. This data shows whether the donor is an active or passive contributor.
 
 ## Methods
+I used the Google Data Analytics framework. It consist of the follow 6 steps:
 - [Ask](#ask) - Ask effective questions
 - [Prepare](#prepare) - Verify data's integrity, Check data credibility and reliability, Check data types and Merge datasets
 - [Process](#process) - Clean, Remove and Transform data and Document cleaning processes and results
@@ -55,56 +56,28 @@ It includes:
 - [Act](#key-findings) - Answer your questions and solve problems
 
 ## ASK
-We took a look at the raw data set mentioned and come up with the questions I want to answer. This can be your own questions based on your interest about the data.
+Since I made my own mini dataset - the questions could potentially be a bit skewed towards my own interest. 
 
-Questions:
-- How many titles are there in the dataset?
-- What is the top 10 titles in the whole dataset?
-- What is the top 10 least titles in the whole dataset?
-- How many of them are Netflix Exclusive and not?
-- What is the most watched type?
-- What is the top 10 TV Shows?
-- What is the top 10 Movies?
-- What is the top 6 Stand-Up Comedy?
+With that in mind I have 3 question.
+
+1. I am curios whether the donation have been increaseing since 2018 and possible why?
+2. I am intriqued by who the top 10 domors are and whether we can see any patterns between them?
+3. I am wondering whether we fget more one-off donations or regular donations and what we can do to increase the regular donations?
+
 
 ## PREPARE
-We downloaded the data in a zip file and uploaded it in directly to RStudio Cloud or you can use this code to import the dataset. Make sure to install and load the readr package in RStudio. You can always take a look in our [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) whenever you need help with a line.
+In this case study, we will use 2 programs Excel and Power Bi.
+Firstly, I made a mini dataset of 100 rows inside excel:
 
-```
-netflix_data <- read_csv("netflix daily top 10.csv")
-View(netflix_data)
-```
+![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/excel1.png?raw=true)
+
+Here you can see all the columns, the rows and the fields.
+
 
 ## PROCESS
-In this step we took our time to process and clean our data. Here a sample of our cleaning process which involves changing the column names to lower case and changing all the NA values to Others.
-
-```
-netflix_data <- netflix_data %>% rename_with(tolower) %>% 
-  rename(date = "as of", 
-         year_to_date_rank = "year to date rank",
-         last_week_rank = "last week rank",
-         production = "netflix exclusive",
-         netflix_release_date = "netflix release date",
-         days_in_top_10 = "days in top 10",
-         viewership_score = "viewership score")
+In this step I took the time to process and clean the data. Purposedly, I left all the null values out. I also left out the Anonymous Data because none of them are anonomous. I also took some time to clean out all the spelling mistakes and duplicates. I did all this manually, because the dataset is relatively small, however this can also be done programmatically in everything from Excel to Python.
 
 
-View(netflix_data)
-
-#replace NA values in production column to "others"
-netflix_data <- netflix_data %<>% mutate(production = fct_explicit_na(production, na_level = "Others")) 
-View(netflix_data)
-```
-
-We also took time to clean out all the spelling mistakes and duplicates. You can take a look at the whole process on correcting all the spelling mistakes in [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) 
-
-```
-netflix_data <- mutate(netflix_data, title = recode(.x=title, "Tiger King"="Tiger King: Murder, Mayhem, and Madness"))
-netflix_data <- mutate(netflix_data, title = recode(.x=title, "Tiger King: Murder, Mayhem …"="Tiger King: Murder, Mayhem, and Madness"))
-netflix_data <- mutate(netflix_data, title = recode(.x=title, "Jerry Seinfeld: 23 Hours to…"="Jerry Seinfeld: 23 Hours to Kill"))
-netflix_data <- mutate(netflix_data, title = recode(.x=title, "George Lopez: Weâll Do It f…"="George Lopez: We'll Do It for Half"))
-netflix_data <- mutate(netflix_data, title = recode(.x=title, "The Queenâs Gambit"="The Queen's Gambit"))
-```
 
 ## ANALYZE
 We took a look at out cleaned data and filtered them to the data we need to answer our questions. We also made new tables that is already sorted and filtered to answer our questions. The whole process can be found in [Netflix Dataset](https://github.com/TacoBadger/NetflixDataset/blob/main/Assets/netflix-dataset.ipynb) 
