@@ -30,7 +30,7 @@ Please do take note that this document is for practice purposes only.
   - [Process](#process)
   - [Analyze](#analyze)
   - [Key Findings](#key-findings)
-  - [What is next?](#what-is-next)
+  - [What's next?](#what's-next)
  
 
 ## Dataset
@@ -48,14 +48,14 @@ It includes:
 - Status reason. This data shows whether the donor is an active or passive contributor.
 
 
-## Methods
+## Method
 I used the Google Data Analytics framework with the following 6 steps:
 1. Ask - Ask effective questions
 2. Prepare - Verify data's integrity, check data credibility and reliability, check data types and merge datasets
 3. Process - Clean, remove and transform data and document cleaning processes and results
 4. Analyze - Identify patterns and draw conclusions
 5. Share - Create effective visuals
-6. Act - Answer the questions and solve the problems
+6. Key findings - Answer the questions and solve the problems
 
 
 ## Ask
@@ -147,7 +147,7 @@ The key findings Data shows that the Happy has suffered a steep decline in donat
 6. Top 10 Movies were The Mitchell vs. The machines, How the grinch stole christmas, Vivo, 365 days, Illumination presents the grinch. The Christmas Chronicles 2, We can be heroes, Red notice, The Unforgivable and Home
 7. Top 6 Stand-Up Comedy were Dave Chappelle: The Closer, Kevin Hartz: Zero fucks given, George Lopez: We'll do it for half, Jerry Seinfeld: 23 hours to kill, Chris D'elia: No Pain, Bo Burnham: Inside
 
-## What is next?
+## What's next
 Thank you for reading my mini case study about nonprofit donor data. Segmentation, locatiopn, age, hobbies could give us more insigths into.
 
 
