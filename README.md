@@ -16,7 +16,7 @@ Lately I have been very interested in how Power Bi can help nonprofits. With Pow
 
 In this case study, I will limit the scope to a donor analysis. I made fictive non-profit called The Be Happy Foundation, and I also made a dataset of fictive donors.
 
-Please do take note that this document is for practice purposes only and it does not include any marketing of the titles involved.
+Please do take note that this document is for practice purposes only.
 
 ## Authors
 - [@TacoBadger](https://github.com/TacoBadger)
@@ -35,7 +35,7 @@ Please do take note that this document is for practice purposes only and it does
  
 
 ## Dataset
-[The Fake Be Happy Foundation Donor Data](https://github.com/TacoBadger/nonprofits-project-7/blob/main/Excel%20Nonprofits.xlsx)
+[The Be Happy Foundation Donor Data](https://github.com/TacoBadger/nonprofits-project-7/blob/main/Excel%20Nonprofits.xlsx)
 
 This dataset consist of 100 rows of fake data, I used www.random.org to generate both names and numbers.
 
@@ -43,7 +43,7 @@ It includes:
 - Id. This is unique identifier of each donor, from D000100 to D000199.
 - Donor. This is the name of the donor which comprise of both first name and surname.
 - Anonymity. This field can be populated with Yes and No. In this example, no one of the 100 donors wanted to be anonymous.
-- Regular Donation. This column is populated with regular or one-off donation. This is an important metric and KPI, as the regular donations will increase the long term sustainability of the nonprofit.
+- Regular Donation. This column is populated with regular or one-off donation. 
 - Amount. This data is great to establish who the biggest donors are.
 - Date of donations. This data goes from 2018 to 2022.
 - Status reason. This data shows whether the donor is an active or passive contributor.
@@ -70,7 +70,7 @@ With that in mind I have 3 questions.
 
 
 ## 2. Prepare
-In this case study, I will use 2 programs Excel and Power BI.
+In this case study, I will use 2 programs, Excel and Power BI.
 
 Firstly, I made a mini dataset of 100 rows inside excel:
 
@@ -136,6 +136,9 @@ Although, it would be intereseting to know why, I still don't have enough data t
 
 
 ## 6. Act
+
+This is an important metric and KPI, as the regular donations will increase the long term sustainability of the nonprofit.
+
 The key findings Data shows that the Happy has suffered a steep decline in donations.....
 1. There are 595 titles.
 2. Cocomelon had the highest number of days during the pandemic. All other titles on the top 10 titles had way less number of days than Cocomelon.
