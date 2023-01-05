@@ -29,7 +29,7 @@ Please do take note that this document is for practice purposes only.
   - [Prepare](#prepare)
   - [Process](#process)
   - [Analyze](#analyze)
-  - [Key Findings](#key-findings)
+  - [Key findings](#key-findings)
   - [What is next](#what-is-next)
  
 
@@ -134,7 +134,7 @@ In the final illustration, I can see that the foundation received more one-off d
 Although, it would be intereseting to know why, I still don't have enough data to give an explaination.
 
 
-## Key Findings
+## Key findings
 
 This is an important metric and KPI, as the regular donations will increase the long term sustainability of the nonprofit.
 
