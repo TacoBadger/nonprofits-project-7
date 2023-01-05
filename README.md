@@ -127,9 +127,9 @@ In the following Power BI table, we can see who the biggest donors have been the
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power3b.png?raw=true)
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power3c.png?raw=true)
 
-In Power BI we can click on each donor and see that out of the 10, there are 2 donors, Arun Edwards and Alan Newman that are regular donors. the rest are one-off donors. With the data we have, it is hard infer any patterns between them, however, the amount they donated is very close to 2.000 DKK each 
+In Power BI we can click on each donor and see that out of the 8, there are 2 donors, Arun Edwards and Alan Newman that are regular donors. the rest are one-off donors. The main pattern I see, is the fact that they all made a donation close to 2.000 DKK each. 
 
-In the final illustration, I can see that the foundation received more one-off donations than regular ones.
+In the final illustration, I can see that the Be Happy Foundation received more one-off donations than regular ones.
 
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power4.png?raw=true)
 
