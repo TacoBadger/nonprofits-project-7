@@ -59,7 +59,7 @@ I used the Google Data Analytics framework with the following 6 steps:
 
 
 ## Ask
-Since I made my own mini dataset - the questions could potentially be a bit skewed towards my own interest. Naturally the data would be less messy and there could also be selection bias with the gap between the sample and the entire target group. 
+Since I made my own mini dataset - the questions could potentially be a bit skewed towards my own interest. Naturally the dataset would be less messy since I made it on the go. I am also fully aware that there could also be some selection bias with the gap between the sample and actual real world data. 
 
 With that in mind I have 3 questions.
 
