@@ -59,7 +59,7 @@ I used the Google Data Analytics framework with the following 6 steps:
 6. Act - Answer the questions and solve the problems
 
 
-## 1. Ask
+## Ask
 Since I made my own mini dataset - the questions could potentially be a bit skewed towards my own interest. 
 
 With that in mind I have 3 questions.
@@ -135,7 +135,7 @@ In the final illustration, I can see that the foundation received more one-off d
 Although, it would be intereseting to know why, I still don't have enough data to give an explaination.
 
 
-## 6. Act
+## 6. Key Findings
 
 This is an important metric and KPI, as the regular donations will increase the long term sustainability of the nonprofit.
 
