@@ -24,13 +24,13 @@ Please do take note that this document is for practice purposes only.
 ## Table of Contents
 
   - [Dataset](#dataset)
-  - [Methods](#methods)
+  - [Method](#method)
   - [Ask](#ask)
   - [Prepare](#prepare)
   - [Process](#process)
   - [Analyze](#analyze)
   - [Key Findings](#key-findings)
-  - [What's next?](#what's-next)
+  - [What's next](#what's-next)
  
 
 ## Dataset
