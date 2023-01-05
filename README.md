@@ -16,7 +16,7 @@ Lately I have been very interested in how Power Bi can help nonprofits. With Pow
 
 In this case study, I will limit the scope to a donor analysis. I made fictive non-profit called The Be Happy Foundation, and I also made a dataset of fictive donors.
 
-Please do take note that this document is for practice purposes only.
+Please note that this document is for practice purposes only.
 
 ## Authors
 - [@TacoBadger](https://github.com/TacoBadger)
@@ -43,7 +43,7 @@ It includes:
 - Donor. This is the name of the donor which comprise of both first name and surname.
 - Anonymity. This field can be populated with Yes and No. In this example, no one of the 100 donors wanted to be anonymous.
 - Regular Donation. This column is populated with regular or one-off donation. 
-- Amount. This data is great to establish who the biggest donors are.
+- Amount. This fiels shows the DKK amount of each contribution.
 - Date of donations. This data goes from 2018 to 2022.
 - Status reason. This data shows whether the donor is an active or passive contributor.
 
@@ -59,11 +59,11 @@ I used the Google Data Analytics framework with the following 6 steps:
 
 
 ## Ask
-Since I made my own mini dataset - the questions could potentially be a bit skewed towards my own interest. 
+Since I made my own mini dataset - the questions could potentially be a bit skewed towards my own interest. Naturally the data would be less messy and there could also be selection bias with the gap between the sample and the entire target group. 
 
 With that in mind I have 3 questions.
 
-1. I am curios whether the donation have been increaseing since 2018 and possibly why?
+1. I am curious whether the donation have been increaseing since 2018 and possibly why?
 2. I am intriqued by who the top 9 donors are and whether we can see any patterns between them?
 3. I am wondering whether we get more one-off donations or regular donations and what we can do to increase the regular donations?
 
