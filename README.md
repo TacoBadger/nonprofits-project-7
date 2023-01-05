@@ -59,7 +59,7 @@ I used the Google Data Analytics framework with the following 6 steps:
 6. Act - Answer the questions and solve the problems
 
 
-## Ask
+## 1. Ask
 Since I made my own mini dataset - the questions could potentially be a bit skewed towards my own interest. 
 
 With that in mind I have 3 questions.
@@ -69,7 +69,7 @@ With that in mind I have 3 questions.
 3. I am wondering whether we get more one-off donations or regular donations and what we can do to increase the regular donations?
 
 
-## Prepare
+## 2. Prepare
 In this case study, I will use 2 programs Excel and Power BI.
 
 Firstly, I made a mini dataset of 100 rows inside excel:
@@ -85,11 +85,11 @@ You can download the dashboard https://github.com/TacoBadger/nonprofits-project-
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power1.png?raw=true)
 
 
-## Process
+## 3. Process
 In this step I took the time to process and clean the data in the Excel file. Purposely, I did not create any null values in this dataset, and all entries are not anonymous. I also took some time to clean out all the spelling mistakes and duplicates. I did all this manually, because the dataset is relatively small, however this can also be done programmatically in Excel or Power BI.
 
 
-## Analyze
+## 4. Analyze
 The first things I did in Excel was generating a table.
 
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/excel2.png?raw=true)
@@ -107,7 +107,7 @@ Now I generated a graph to get a better overview of donation types and the total
 All the Excel based table and graphs did not give a insightful result to our enquiries.
 
 
-## Share and Act
+## 5. Share
 So now we will use Power BI and see if the insights to our enquires becomes clearer. Remember the questions we asked were:
 
 1. I am curios whether the donation have been increaseing since 2018 and possible why?
@@ -135,8 +135,8 @@ In the final illustration, I can see that the foundation received more one-off d
 Although, it would be intereseting to know why, I still don't have enough data to give an explaination.
 
 
-## Key Findings
-The Data shows that the Happy has suffered a steep decline in donations.....
+## 6. Act
+The key findings Data shows that the Happy has suffered a steep decline in donations.....
 1. There are 595 titles.
 2. Cocomelon had the highest number of days during the pandemic. All other titles on the top 10 titles had way less number of days than Cocomelon.
 3. 377 of the titles are Netflix exclusive.
