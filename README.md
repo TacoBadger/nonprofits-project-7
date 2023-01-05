@@ -29,7 +29,6 @@ Please do take note that this document is for practice purposes only.
   - [Prepare](#prepare)
   - [Process](#process)
   - [Analyze](#analyze)
-  - [Share and Act](#share-and-act)
   - [Key Findings](#key-findings)
   - [What is next?](#what-is-next)
  
@@ -69,7 +68,7 @@ With that in mind I have 3 questions.
 3. I am wondering whether we get more one-off donations or regular donations and what we can do to increase the regular donations?
 
 
-## 2. Prepare
+## Prepare
 In this case study, I will use 2 programs, Excel and Power BI.
 
 Firstly, I made a mini dataset of 100 rows inside excel:
@@ -85,11 +84,11 @@ You can download the dashboard https://github.com/TacoBadger/nonprofits-project-
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power1.png?raw=true)
 
 
-## 3. Process
+## Process
 In this step I took the time to process and clean the data in the Excel file. Purposely, I did not create any null values in this dataset, and all entries are not anonymous. I also took some time to clean out all the spelling mistakes and duplicates. I did all this manually, because the dataset is relatively small, however this can also be done programmatically in Excel or Power BI.
 
 
-## 4. Analyze
+## Analyze
 The first things I did in Excel was generating a table.
 
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/excel2.png?raw=true)
@@ -107,7 +106,7 @@ Now I generated a graph to get a better overview of donation types and the total
 All the Excel based table and graphs did not give a insightful result to our enquiries.
 
 
-## 5. Share
+## Share
 So now we will use Power BI and see if the insights to our enquires becomes clearer. Remember the questions we asked were:
 
 1. I am curios whether the donation have been increaseing since 2018 and possible why?
@@ -135,7 +134,7 @@ In the final illustration, I can see that the foundation received more one-off d
 Although, it would be intereseting to know why, I still don't have enough data to give an explaination.
 
 
-## 6. Key Findings
+## Key Findings
 
 This is an important metric and KPI, as the regular donations will increase the long term sustainability of the nonprofit.
 
