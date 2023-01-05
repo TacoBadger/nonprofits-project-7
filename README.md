@@ -30,7 +30,7 @@ Please do take note that this document is for practice purposes only.
   - [Process](#process)
   - [Analyze](#analyze)
   - [Key Findings](#key-findings)
-  - [What's next](#what's-next)
+  - [What is next](#what-is-next)
  
 
 ## Dataset
@@ -147,7 +147,7 @@ The key findings Data shows that the Happy has suffered a steep decline in donat
 6. Top 10 Movies were The Mitchell vs. The machines, How the grinch stole christmas, Vivo, 365 days, Illumination presents the grinch. The Christmas Chronicles 2, We can be heroes, Red notice, The Unforgivable and Home
 7. Top 6 Stand-Up Comedy were Dave Chappelle: The Closer, Kevin Hartz: Zero fucks given, George Lopez: We'll do it for half, Jerry Seinfeld: 23 hours to kill, Chris D'elia: No Pain, Bo Burnham: Inside
 
-## What's next
+## What is next
 Thank you for reading my mini case study about nonprofit donor data. Segmentation, locatiopn, age, hobbies could give us more insigths into.
 
 
