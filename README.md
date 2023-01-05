@@ -103,11 +103,11 @@ Now I generated a graph to get a better overview of donation types and the total
 
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/excel4.png?raw=true)
 
-All the Excel based table and graphs did not give a insightful result to our enquiries.
+This graph turned out a bit messy and hard to read. You can of course make some improvements, however, it is time to move to Power BI, so we can utilize the great visualizations.
 
 
 ## Share
-So now we will use Power BI and see if the insights to our enquires becomes clearer. Remember the questions we asked were:
+In this section, we will use Power BI. Remember the questions we asked were:
 
 1. I am curios whether the donation have been increaseing since 2018 and possible why?
 2. I am intriqued by who the top 9 donors are and whether we can see any patterns between them?
@@ -119,46 +119,36 @@ This Power BI table is clearly showing that from 2018 the amount of donation hav
 
 The donations have decreased from more than 10k to less than 2K. Why? We don't know yet. We need more data we can analyze to infer some reasons.
 
-In the following Power BI table, we can see who the biggest donors have been. 
+If I have to take a guess, we can say that the economy in 2018 was before covid, which could be the reason why Sum of the Amount that year was 100% higher than any other years. The following year, between 2019-2021 it stabilized. In 2022 it dropped another 50%, this year the war in Ukraine started resulting in higher gas prices and fears in many countries in Europe, including Denmark.
+
+In the following Power BI table, we can see who the biggest donors have been the follwing 8 people. 
 
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power3a.png?raw=true)
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power3b.png?raw=true)
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power3c.png?raw=true)
 
-In Power BI we can click on each donor and see that out of the 10, there are 2 donors, Arun Edwards and Alan Newman that are regular donors. the rest are one-off donors. 
+In Power BI we can click on each donor and see that out of the 10, there are 2 donors, Arun Edwards and Alan Newman that are regular donors. the rest are one-off donors. With the data we have, it is hard infer any patterns between them, however, the amount they donated is very close to 2.000 DKK each 
 
 In the final illustration, I can see that the foundation received more one-off donations than regular ones.
 
 ![](https://github.com/TacoBadger/nonprofits-project-7/blob/main/power4.png?raw=true)
 
-Although, it would be intereseting to know why, I still don't have enough data to give an explaination.
+Although, it would be intereseting to know why, I still don't have enough data to give an explaination. To increase the regular donations, it would optimal to interview both segments and understand their motives and why they donate to us.
 
 
 ## Key findings
 
-This is an important metric and KPI, as the regular donations will increase the long term sustainability of the nonprofit.
+In this case study, we worked with a donor analysis based on 100 row of fake data. We found a clear trendline with donations going down over the last 5 years.
 
-The key findings Data shows that the Happy has suffered a steep decline in donations.....
-1. There are 595 titles.
-2. Cocomelon had the highest number of days during the pandemic. All other titles on the top 10 titles had way less number of days than Cocomelon.
-3. 377 of the titles are Netflix exclusive.
-4. Movie is the most watched type.
-5. The top 10 Tv shows were Cocomelon, Manifest, Queen's Gambit, Outer banks, Squid game, All American, Bridgerton, Cobra Kai, Lucifer and Virgin River
-6. Top 10 Movies were The Mitchell vs. The machines, How the grinch stole christmas, Vivo, 365 days, Illumination presents the grinch. The Christmas Chronicles 2, We can be heroes, Red notice, The Unforgivable and Home
-7. Top 6 Stand-Up Comedy were Dave Chappelle: The Closer, Kevin Hartz: Zero fucks given, George Lopez: We'll do it for half, Jerry Seinfeld: 23 hours to kill, Chris D'elia: No Pain, Bo Burnham: Inside
+With minimal data, we learned that DKK. 2000 is the maximum amount any donor want to contribute to our foundation. We also learned that most of our donors are one-off donors.
+
+Before we can figure out how we can get more regular donations and increase the long term sustainability of our nonprofit, we have to get into the dialogue with our exisisting donor to learn what they like and dislike about our work at the Be Happy Foundation.
+
+In addition, more transaction, location and motivation data would also help us understand the donors.
 
 ## What is next
-Thank you for reading my mini case study about nonprofit donor data. Segmentation, locatiopn, age, hobbies could give us more insigths into.
+Thank you for reading my mini case study about nonprofit donor data. To improve the case, I would need to have more data I can analyze, preferably, real life data about locatiopn, age and hobbies about our donors.
 
+In addition, I would need to learn more about campaigns, track the results, and improve on past performances with a data driven approach to see how we can attract new donors.
 
-
-
-doccumentation about my Netflix Dataset. To help me improve more of my basic data analytical skills I will list down a few pointers on what's next for my other projects.
-
-- I could have improved my data story telling or I could have made a more compelling narrative by including all detailed and relevant explanation in my documentation, I should know what my target audience is and start telling my data from there. I should also be including basic terms especially for beginners reading my documentation.
-- I could have improved my keypointers that can lead the audience to understand more about my data analysis. I could have make use of highlighting all important keywords and relevant data for our target audience.
-- A more detailed explanation of the codes used and functions. We can use a small summary for our target audience.
-- A more effective way of using visuals where our target audience can easily understand it. Always make sure you choose the proper visual to express your dataset. 
--  We will also start using SQL for our next dataset practice which involves more functions and commands that is more complex than in RStudio. We will specifically used DB Browser SQLite for our next ptractice, DB Browser works similar to SQL in some functions and commands so let us learn about it together in the next dataset. 
-
-See you on our next project!
+I also think it makes sense to segment all the old donors, from active to passive donors, to see how we can re-engage with them in a meanful way.
