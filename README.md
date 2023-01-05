@@ -50,13 +50,13 @@ It includes:
 
 
 ## Methods
-I used the Google Data Analytics framework for the following 6 steps:
-- [Ask](#ask) - Ask effective questions
-- [Prepare](#prepare) - Verify data's integrity, check data credibility and reliability, check data types and merge datasets
-- [Process](#process) - Clean, remove and transform data and document cleaning processes and results
-- [Analyze](#analyze) - Identify patterns and draw conclusions
-- [Share](#visual-results) - Create effective visuals
-- [Act](#key-findings) - Answer the questions and solve the problems
+I used the Google Data Analytics framework with the following 6 steps:
+1. Ask - Ask effective questions
+2. Prepare - Verify data's integrity, check data credibility and reliability, check data types and merge datasets
+3. Process - Clean, remove and transform data and document cleaning processes and results
+4. Analyze - Identify patterns and draw conclusions
+5. Share - Create effective visuals
+6. Act - Answer the questions and solve the problems
 
 
 ## Ask
