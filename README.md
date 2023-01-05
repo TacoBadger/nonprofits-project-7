@@ -142,13 +142,13 @@ In this case study, we worked with a donor analysis based on 100 row of fake dat
 
 With minimal data, we learned that DKK. 2000 is the maximum amount any donor want to contribute to our foundation. We also learned that most of our donors are one-off donors.
 
-Before we can figure out how we can get more regular donations and increase the long term sustainability of our nonprofit, we have to get into the dialogue with our exisisting donor to learn what they like and dislike about our work at the Be Happy Foundation.
+Before we can figure out how we can get more regular donations and increase the long term sustainability of our nonprofit, we need to talk with our exisisting donors to learn what they like and dislike about our work at the Be Happy Foundation.
 
-In addition, more transaction, location and motivation data would also help us understand the donors.
+In addition, more transaction, location and motivation data would also helpful to understand the donors.
 
 ## What is next
-Thank you for reading my mini case study about nonprofit donor data. To improve the case, I would need to have more data I can analyze, preferably, real life data about locatiopn, age and hobbies about our donors.
+Thank you for reading my mini case study about nonprofit donor data. To improve the case, I would need to have more data I can analyze, preferably, real life donor data backed by location, age and hobbies.
 
 In addition, I would need to learn more about campaigns, track the results, and improve on past performances with a data driven approach to see how we can attract new donors.
 
-I also think it makes sense to segment all the old donors, from active to passive donors, to see how we can re-engage with them in a meanful way.
+I also think it makes sense to segment all the old donors, from active to passive donors, to see how we can re-engage with them in a meaningful way.
